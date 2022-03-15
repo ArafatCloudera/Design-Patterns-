@@ -72,7 +72,11 @@ public class User
 			//if user object does not break any assumption of system
 		}
 	}
-	
+}
+
+
+// The main method for creating the Object using the builder class
+
 	public static void main(String[] args) 
    {
 	User user1 = new User.UserBuilder("Lokesh", "Gupta")
@@ -99,7 +103,4 @@ public class User
 
 	System.out.println(user3);
    }
-}
-
-
 
